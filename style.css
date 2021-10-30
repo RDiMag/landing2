@@ -60,6 +60,7 @@ ul {
  .secondarytext {
     font-size: 24px;
     color: whitesmoke;
+    margin-top: -5px;
 }
 
 .img-container {
@@ -72,10 +73,11 @@ ul {
 }
 
 .button {
-    width: 70px;
+    width: 90px;
     height: 30px;
+    font-size: medium;
     background-color: cornflowerblue;
     border-style: none;
     color: white;
-    margin: 8px;
+    margin: 18px;
 }
