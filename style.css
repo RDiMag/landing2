@@ -41,6 +41,7 @@ ul {
 .flex-container {
     display: flex;
     flex: auto;
+    flex-shrink: 1;
     color: #F9FAF8;
     background-color: #1F2937;
     padding-right: 65px;
@@ -70,6 +71,10 @@ ul {
     height: auto;
     width: auto;
     margin-bottom: 15px;
+}
+
+img {
+    width: 100%;
 }
 
 .button {
@@ -117,10 +122,6 @@ ul {
     font-style: italic;
 }
 
-.quote figcaption,
-.quote blockquote {
-    margin: 1em;
-}
 
 .quote figcaption {
     font-size: 28px;
@@ -128,34 +129,71 @@ ul {
     font-weight: bold;
 }
 
-.modal {
-    margin: 1em;    
+.modal {    
     background-color: #F9FAF8;
     display: flex;
     justify-content: center;
+    padding: 60px;
 }
 
 .call {
     background: cornflowerblue;
-    width: 580px;
-    height: 80px;
     border-radius: 4px;
     display: flex;
-    gap: 10px;
-    padding: 16px;
+    flex: auto;
+    gap: 20px;
+    padding: 35px;
     font-weight: bold;
     font-size: 18px;
-    align-items: start;
-    justify-content: center;
-    flex-direction: column;
-    margin-bottom: 8px;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
 }
 
-.signup {
-    border-radius: 4px;
+.text {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    flex-direction: column;
+    color: white;
+    margin-right: 40px;
+}
+
+.para {
+    font-size: 16px;
+}
+
+.flex-container2 {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: flex-end;
+    align: center;
+}
+
+.button2 {
     width: 90px;
+    height: 30px;
+    font-size: medium;
+    background-color: cornflowerblue;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    margin: 18px;
+    border-radius: 8px;
+    min-width: 90px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
     height: 40px;
     display: flex;
-    align-items: center;
+    align-items: center;;
     justify-content: center;
-}
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding-top: 5px;
+    margin-top: 5px;
+  }
