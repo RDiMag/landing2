@@ -81,6 +81,7 @@ ul {
     color: white;
     margin: 18px;
     border-radius: 8px;
+    min-width: 90px;
 }
 
 .title {
@@ -119,4 +120,42 @@ ul {
 .quote figcaption,
 .quote blockquote {
     margin: 1em;
+}
+
+.quote figcaption {
+    font-size: 28px;
+    text-align: end;
+    font-weight: bold;
+}
+
+.modal {
+    margin: 1em;    
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+}
+
+.call {
+    background: cornflowerblue;
+    width: 580px;
+    height: 80px;
+    border-radius: 4px;
+    display: flex;
+    gap: 10px;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 18px;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.signup {
+    border-radius: 4px;
+    width: 90px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
