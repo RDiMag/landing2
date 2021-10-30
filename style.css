@@ -167,7 +167,7 @@ img {
     flex: auto;
     align-items: center;
     justify-content: flex-end;
-    align: center;
+    box-align: center;
 }
 
 .button2 {
