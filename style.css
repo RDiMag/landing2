@@ -101,6 +101,22 @@ ul {
 }
 
 .info {
-    max-width: 200px;
+    max-width: 150px;
     text-align: center;
+    padding-bottom: 1em;
+}
+
+.quote {
+    margin: 0;
+    padding: 1em;
+    background: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote figcaption,
+.quote blockquote {
+    margin: 1em;
 }
